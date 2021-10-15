@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>COVID-19 Vaccination Pre-Registration Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="page2.html">
+            <div class="head">
+                <div>
+                    <img src="images/Background (2).png" id="image">
+                </div>
+                <div>
+                    <h2>COVID-19 Vaccination Pre-Registration Form</h2>
+                </div>
+            </div>
+            <div class="body">
+                <div id="desc">
+                    <h4 id="biodata">1. BIODATA</h4>
+                    <label id="label" for="biodata">(To be completed by Applicant in all captical letters)</label>
+                </div>
+                <div class="row">
+                    <div class="Site">
+                        <label for="Vaccination-Site">Vaccination Site</label>
+                        <input type="text" id="Vaccination-Site">
+                        <small></small>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <label for="Last-Name">Last Name</label>
+                        <input type="text" id="Last-Name">
+                        <small></small>
+                    </div>
+                    <div class="column">
+                        <label for="First-Name">First Name</label>
+                        <input type="text" id="First-Name">
+                        <small></small>
+                    </div>
+                    <div class="column">
+                        <label for="Other">Other</label>
+                        <input type="text" id="Other">
+                        <small></small>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column" id="ID-Type">
+                        <label for="ID-Type">Identification Type</label>
+                        <div class="sub-row">
+                            <label class="radio" id="radio" for="ID">
+                                <input name="id" type="radio" id="ID" value="ID">ID 
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="radio" id="radio" for="DP">
+                                <input name="id" type="radio" id="DP" value="DP"> DP 
+                                <span class="checkmark"></span>
+                            </label>
+                            <div id="spacing">
+                                <label class="radio" id="radio" for="BP">
+                                    <input name="id" type="radio" id="BP" value="BP">BP 
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="radio" id="radio" for="PP">
+                                    <input name="id" type="radio" id="PP" value="PP">PP 
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <small></small>
+                    </div>
+                    <div class="column">
+                        <label for="DOB">Date of Birth</label>
+                        <input type="date">
+                        <small></small>
+                    </div>
+                    <div class="column">
+                        <label for="Gender">Gender</label>
+                        <div class="sub-row">
+                            <label class="radio" id="male" for="male">Male
+                                <input name="gender" type="radio" id="male" value="Male">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="radio" id="female" for="female">Female
+                                <input name="gender" type="radio" id="female" value="Female">   
+                               <span class="checkmark"></span>
+                            </label>
+
+                        </div>
+                        <small></small>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <label for="ID-No">Identification No.</label>
+                        <input type="text" id="ID-No">
+                        <small></small>
+                    </div>
+                    <div class="column">
+                        <label for="Age">Age</label>
+                        <input type="text" id="Age">
+                        <small></small>
+                    </div>
+                    <div class="column">
+                        <label for="Nationality">Nationality</label>
+                        <input type="text" id="Nationality">
+                        <small></small>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <label for="Address">Address</label>
+                        <textarea name="" id="Address" cols="30" rows="5"></textarea>
+                        <small></small>
+                    </div>
+                    <div class="column">
+                        <div class="sub-row">
+                            <label for="Contact">Contact No.(xxx-xxxx)</label>
+                            <input type="text" id="Contact">
+                            <small></small>
+                        </div>
+                        <div class="sub-row">
+                            <label for="Work">Place of work</label>
+                            <input type="text" id="Work">
+                            <small></small>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="sub-row">
+                            <label for="NoK">Name of Next of Kin</label>
+                            <input type="text" id="NoK">
+                            <small></small>
+                        </div>
+                        <div class="sub-row">
+                            <label for="Nok-Contact">Next of Kin Contact No.</label>
+                            <input type="text" id="Nok-Contact">
+                            <small></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="email">
+                    <label for="Email">Email</label>
+                    <input type="text" id="Email">
+                    <small></small>
+                </div>
+                <div id="notice">STOP HERE! DO NOT COMPLETE THE REST OF THE FORM</div>
+                <div id="desc">
+                    <h4 id="heading">FOR OFFICIAL USE ONLY</h4>
+                    <label id="label" for="heading">(To be completed by Screening and Administering Nurse)</label>
+                </div>
+                <h4>2. PRE-VACCINATION SCREENING</h4>
+                <table>
+
+                    <tr>
+                        <th colspan="2"></th>
+                        <th>Yes</th>
+                        <th>No</th>
+                        <th>Details</th>
+                    </tr>
+                    <tr>
+                        <td class="numbering">1.</td>
+                        <td>Are you well today?</td>
+                        <td><input class="radio-button" type="radio" name="1" value="Yes"></td>
+                        <td> <input class="radio-button" type="radio" name="1" value="No"></td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td class="numbering">2.</td>
+                        <td>Do you have flu-like symptoms? e.g Runny nose, fever</td>
+                        <td><input class="radio-button" type="radio" name="2" value="Yes"></td>
+                        <td> <input class="radio-button" type="radio" name="2" value="No"></td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td class="numbering">3.</td>
+                        <td>Do you have any medical conditions that we should be aware of?e.g. Diabetes Mellitus, Hypertension (If you, state in details)</td>
+                        <td><input class="radio-button" type="radio" name="3" value="Yes"></td>
+                        <td> <input class="radio-button" type="radio" name="3" value="No"></td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td class="numbering">4.</td>
+                        <td>Have you received any other vaccination in the last month? (If yes, state in details)</td>
+                        <td><input class="radio-button" type="radio" name="4" value="Yes"></td>
+                        <td> <input class="radio-button" type="radio" name="4" value="No"></td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                </table>
+                <footer>This Form is part of the Patient's Medical Records and is the Property of the Ministry of Health (MOH), Government of the Republic of Trinidad and Tobago (GORTT).</footer>
+            </div>
+        </form>
+        <div class="navbar">
+            <nav class="submit">
+                <a href="page2.html"><button>NEXT PAGE</button></a>
+            </nav>
+        </div>
+    </div>
+    <script src="JS/app.js"></script>
+</body>
+
+</html>
